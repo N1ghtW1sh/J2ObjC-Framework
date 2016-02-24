@@ -4,7 +4,7 @@ set -ev
 j2objc_version=1.0.0
 sha1_checksum=703d2a8d132f828a9dece35a0efc7cbdcef83e29
 
-echo "fetching j2objc dist2"
+echo "fetching j2objc dist23"
 curl -OL https://github.com/google/j2objc/releases/download/${j2objc_version}/j2objc-${j2objc_version}.zip
 echo "${sha1_checksum}  j2objc-${j2objc_version}.zip" | shasum -c
 unzip -o -q j2objc-${j2objc_version}.zip
